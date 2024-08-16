@@ -1,1 +1,91 @@
 
+* {
+  padding: 0;
+  margin:0;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: sans-serif;
+}
+.chat__section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, blueviolet, #c471ed);
+}
+.brand {
+  padding: 10px;
+  background: #00000030;
+}
+
+.brand h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.brand h1>span {
+  color: whitesmoke;
+  
+}
+.ask_area {
+  height: 50%;
+  padding: 10px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.ask_area div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px 20px;
+  background: #00000030;
+}
+.ask_area div input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background: #ffffff30;
+}
+input::placeholder {
+  color: #ffffffbe;
+}
+
+p {
+  color: whitesmoke;
+  
+}
+p>span{
+  color: #ff6e6e;
+  font-weight: thin;
+}
+.message__area {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.message {
+  background: #00000030;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+
+}
+h4 {
+  color: whitesmoke;
+  font-size: 1.2rem;
+  padding: 20px;
+  text-align: center;
+  background: #00000030;
+  border-radius: 0 0 5px 5px;
+  
+
+}
+p {
+  padding: 10px;
+}
